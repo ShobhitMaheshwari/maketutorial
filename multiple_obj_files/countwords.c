@@ -1,9 +1,10 @@
-#include "scanner.h"
+//#include "scanner.h"
 #include "counter.h"
 #include "stdio.h"
 
 int main(){
-    printf("%d\n", count(3));
-    printf("%d\n", scan(3));
+    int a = 3;
+    printf("%d\n", count(a));
+    //printf("%d\n", scan(a));
     return 0;
 }
